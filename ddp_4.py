@@ -51,5 +51,5 @@ harga_diskon = harga_item * jumlah_pembelian * (10/100)
 harga_total = harga_item * jumlah_pembelian
 totaldengandiskon = harga_total - harga_diskon
 
-print (f"Anda mendapat diskon 10%, harga per item {harga_item} jadi total yang harus dibayar {totaldengandiskon}") if jumlah_pembelian > 100 else print(f"Harga per item {harga_item}, jadi total yang harus dibayar adalah {harga_total}")
+print ("Anda mendapat diskon 10%, harga per item {harga_item} jadi total yang harus dibayar {totaldengandiskon}") if jumlah_pembelian > 100 else print(f"Harga per item {harga_item}, jadi total yang harus dibayar adalah {harga_total}")
 print("=========no 5==========")
