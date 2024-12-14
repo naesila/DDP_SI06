@@ -18,5 +18,5 @@ kenari = Burung('Burung Kenari', 'buah buahan', 'udara', 'bertelur', 'kuning dan
 kenari.cetak_burung()
 
 nuri = Burung('Burung Nuri', 'Serbuk Sari', 'udara', 'bertelur', 'hijau', 'pcitpcit')
-kenari.cetak_burung()
+nuri.cetak_burung()
 
